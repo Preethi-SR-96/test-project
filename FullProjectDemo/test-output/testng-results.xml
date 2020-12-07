@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-24T13:21:18 IST" name="HRM Test Suite" finished-at="2020-09-24T13:21:30 IST" duration-ms="12032">
+    <groups>
+    </groups>
+    <test started-at="2020-09-24T13:21:18 IST" name="Pending Leave Request Test Case" finished-at="2020-09-24T13:21:26 IST" duration-ms="7854">
+      <class name="testCaseExample.Test_Pending_Leave_Request">
+        <test-method signature="verifyPendingLeaveRequest()[pri:0, instance:testCaseExample.Test_Pending_Leave_Request@35ef1869]" started-at="2020-09-24T13:21:18 IST" name="verifyPendingLeaveRequest" finished-at="2020-09-24T13:21:26 IST" duration-ms="7797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPendingLeaveRequest -->
+      </class> <!-- testCaseExample.Test_Pending_Leave_Request -->
+    </test> <!-- Pending Leave Request Test Case -->
+    <test started-at="2020-09-24T13:21:26 IST" name="Check User Role Test Case" finished-at="2020-09-24T13:21:30 IST" duration-ms="4010">
+      <class name="testCaseExample.Test_User_Role">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCaseExample.Test_User_Role@52e6fdee]" started-at="2020-09-24T13:20:58 IST" name="launchBrowser" finished-at="2020-09-24T13:21:18 IST" duration-ms="20526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUserRole()[pri:0, instance:testCaseExample.Test_User_Role@52e6fdee]" started-at="2020-09-24T13:21:26 IST" name="verifyUserRole" finished-at="2020-09-24T13:21:30 IST" duration-ms="4004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserRole -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCaseExample.Test_User_Role@52e6fdee]" started-at="2020-09-24T13:21:30 IST" name="tearDown" finished-at="2020-09-24T13:21:32 IST" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCaseExample.Test_User_Role -->
+    </test> <!-- Check User Role Test Case -->
+  </suite> <!-- HRM Test Suite -->
+</testng-results>
